@@ -1,0 +1,716 @@
+/* filename: style
+author: "Sammit" "Raut"
+created: 23-08-2023
+last modified: 29-09-2023
+description: Assignment1
+*/
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    /* Set the background image */
+    background-image: url('images/website background image.png');
+    background-size: cover; /* Scale to fit within the viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-color: #f0f0f0; /* Fallback background color */
+}
+/* Navigation menu styling */
+nav {
+    background-color: black; /* Transparent background color */
+    color: white;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header styling */
+header {
+    /* Set the background color for the header */
+    background-color: Transparent;
+    padding: 20px;
+    /* Align text to the left and vertically center */
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+img {
+    max-width: 10%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the title in the header */
+header h1 {
+    font-size: 36px; /* Change font size */
+    font-family: 'Georgia', serif; /* Change font style */
+    color: white; /* Change text color */
+    margin-left: 20px; /* Add margin to the left */
+    margin-top: 20px;
+}
+
+
+/* Company description section styling */
+
+#company-description {
+    background-color: transparent;
+    margin-left: 20px; 
+    text-align: left; /* Align text to the left */
+}
+
+#company-description h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#company-description h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+#company-description p {
+    color: white;
+    margin-left: 40px;
+}
+
+#company-description ul li {
+    color: white;
+    margin-left: 40px;
+}
+
+/* Footer styling */
+footer {
+    background-color: transparent; /* Transparent background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    min-height: calc(100vh - 150px);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+ul li {
+    color: white;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #company-description {
+        padding: 20px;
+    }
+}
+/* Reset default margin and padding for all elements. CSS code for jobs.html */
+body.jobs {
+    background-image: url('images/jobs background image.png');
+    font-family: 'Monaco', 'Consolas', 'Courier New', 'Inconsolata', 'Fira Code', 'Source Code Pro', monospace;
+    color: white;
+    background-size: cover; /* Scale to fit within the viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center center; /* Center the image horizontally and vertically */
+   
+    margin: 0; /* Remove default margin for body */
+    
+    min-height: 100vh; /* Ensure the content fills at least the viewport height */
+}
+
+body.jobs section {
+    margin: 20px; /* Add margin to the sections */
+    
+    
+}
+
+/* Apply styles for the navigation menu within the body with class "jobs" */
+
+
+body.jobs header h1 {
+    font-size: 24px; /* Adjust font size to make it smaller */
+    color: white;
+    margin: 20px 20px 10px; /* Add margin for spacing (top, right/left, bottom) */
+    text-align: left; /* Align the text to the left */
+    
+}
+
+/* Apply styles for headings */
+body.jobs h1, body.jobs h2, body.jobs h3 {
+    color: white; /* Set heading color to white */
+    margin-bottom: 10px;
+    text-align: left;
+    
+
+}
+
+/* Apply styles for paragraphs */
+body.jobs p {
+    margin-bottom: 15px; /* Add margin below paragraphs */
+}
+
+/* Apply styles for lists */
+body.jobs ul, body.jobs ol {
+    margin-left: 20px; /* Add left margin for lists */
+    margin-bottom: 15px; /* Add margin below lists */
+}
+
+/* Apply styles for list items */
+body.jobs li {
+    margin-bottom: 5px; /* Add margin below list items */
+    
+}
+
+/* Apply styles for links */
+body.jobs a {
+    color: white; /* Set link color */
+    text-decoration : none; /* Remove underline */
+}
+
+aside{
+    margin: 20px;
+}
+
+
+
+
+
+/* Reset default margin and padding for all elements. CSS code for apply.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Add any common background images or other styles */
+}
+
+/* Common styling for headers */
+header {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+}
+
+body nav ul {
+    list-style-type: none;
+    display: flex; /* Display the menu items in a row */
+    justify-content: center; /* Center the menu items horizontally */
+    padding: 10px 0;
+}
+
+body nav ul li {
+    margin-right: 20px;
+}
+
+body nav a {
+    color: white; /* Set text color to white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Common styling for form sections */
+.form-section {
+    background-color: transparent;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Apply styles for labels and form controls */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Add more styles for different form controls */
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* Apply styles for the footer */
+footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    /* Add responsive styles if needed */
+}
+
+/* Reset default margin and padding for all elements. CSS code for about.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body.about {
+    font-family: Arial, sans-serif;
+    background-color: rgb(7, 7, 71);
+    background-image: none;
+    color: white;
+}
+
+body.about nav ul {
+    list-style-type: none;
+    display: flex; /* Display the menu items in a row */
+    justify-content: center; /* Center the menu items horizontally */
+    padding: 10px 0;
+    text-align: center;
+    background-color: #007BFF;
+}
+
+body.about nav ul li {
+    margin-right: 20px;
+}
+
+body.about nav a {
+    color: white; /* Set text color to white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header.about {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.info, .timetable, .contact, .profile {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+body.about figure{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+body.about figure img {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px; 
+    height: auto; /* Maintain aspect ratio */
+}
+
+section.profile{
+    background-color: transparent;
+    border: none;
+}
+
+section#cv {
+   
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+}
+
+/* Styling for paragraphs within the CV section */
+section#cv p {
+    margin-bottom: 15px;
+}
+
+/* Styling for links within the CV section */
+section#cv a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Styling for links within the CV section on hover */
+section#cv a:hover {
+    text-decoration: underline;
+}
+
+
+.photo {
+    width: 300px; 
+    height: auto; /* Maintain aspect ratio */
+}
+
+dl {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 3px solid #100000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: transparent;
+}
+
+a.email-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* CSS code for enhancements.html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body.enhancements {
+    font-family: Arial, sans-serif;
+    background-color: #730404;
+    background-image: none;
+    
+}
+
+/* Header styling */
+header.enhancements {
+    background-color: #0c0101;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation menu styling */
+
+
+/* Main content styling */
+main.enhancements {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2.enhancements {
+    margin-bottom: 10px;
+    color: black;
+}
+
+main h3.enhancements {
+    margin-bottom: 10px;
+    color: black;
+}
+
+main p.enhancements {
+    margin-bottom: 20px;
+}
+
+main pre.enhancements {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+main a.enhancements {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Footer styling */
+footer.enhancements {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section.enhancement {
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 40px;
+}
+
+section.enhancement h2, h3 {
+    color: #0b0101;
+}
+
+
+
+section.enhancement ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+section.enhancement ul li {
+    margin-bottom: 5px;
+    color: black;
+}
+
+section.enhancement a {
+    color: #66a2cc;
+    text-decoration: none;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+/* CSS for form with errors */
+.error-message {
+    color: red; 
+    font-size: 14px; 
+    margin-top: 5px; 
+}
+
+a.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+
+a.apply-button:hover {
+    background-color: #0056b3; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #fbf6f6;
+}
+
+/* Apply styles to the enhancement title */
+.enhancement-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e8f0f6; /* Blue color */
+    padding-left: 30px;
+}
+
+/* Apply styles to the enhancement description */
+.enhancement-description {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #e6eced;
+    padding-left: 30px;
+}
+
+/* Apply styles to the implementation steps */
+.implementation-steps {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #eaf2f3;
+    padding-left: 40px;
+}
+
+
+
+/* Apply styles to the code snippets */
+.code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: #ccc;
+    
+    padding-left: 30px;
+    margin: 10px 0;
+    overflow-x: auto;
+}
+
+.abc{
+padding-left: 30px;
+}
+
+/* Apply styles to the page links */
+.page-link {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+/* Apply styles to the completion description */
+.completion-description {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #f3f8f9;
+    padding-left: 30px;
+}
+
+/* Apply styles to the footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Apply a reset to remove default margin and padding */
+h1, h2, h3, ul, ol, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.slideshow-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+}
+
+#Enhancements2-element{
+    
+    background-image: url( 'images/jobs background image.png' );
+}
+
+
+
+#Enhancements3-element ul {
+    list-style-type: disc;
+    
+    margin-bottom: 10px;
+}
+
+#Enhancements3-element ul li {
+    margin-bottom: 5px;
+    color: black;
+    
+}
+
+#Enhancements3-element ul li a {
+    text-decoration: none;
+    color: white;
+}
+
